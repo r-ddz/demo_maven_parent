@@ -15,7 +15,6 @@
 > 注意：父工程是通过 modules 标签聚合子模块，但是子模块 web 依赖了 service，service 模块又依赖了 dao，本地仓库没有 service 和 dao 的 jar 包，需要将所需要的模块打包发布到本地仓库。
 
 ## 默认访问地址
-
 http://localhost:8080/demo-maven-parent-web/items/findDetail
 
 ## 测试表、数据创建脚本
